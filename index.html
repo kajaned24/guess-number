@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Disappear number</title>
+  </head>
+  <body>
+    <header>
+      <h4 id="between">(Between 1 and 20)</h4>
+      <button class="btn">Start Game</button>
+    </header>
+
+    <div class="timeDelay">
+      <h4>After how many seconds do you want your numbers to disappear?</h4>
+      <input class="seconds" type="number" />
+      <button class="confirm">Confirm</button>
+    </div>
+
+    <h3 class="text hidden"></h3>
+
+    <div class="dots">
+      <span class="dot">?</span>
+      <span class="dot">?</span>
+      <span class="dot">?</span>
+    </div>
+
+    <p class="explanation">Click from smallest to greatest number</p>
+    <h1 class="result"></h1>
+    <button class="again hidden">Play Game Again</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

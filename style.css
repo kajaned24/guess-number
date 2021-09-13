@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+body {
+  margin: 0;
+  background-color: rgb(228, 181, 238);
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+header {
+  display: inline-flex;
+  width: 100%;
+}
+
+#between {
+  margin: 4rem;
+  margin-left: 5rem;
+}
+
+.seconds {
+  width: 5%;
+  margin-left: 22rem;
+  height: 21px;
+  border-radius: 10%;
+  border: 5px solid black;
+}
+
+.timeDelay {
+  padding-left: 17rem;
+}
+
+.text {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.dots {
+  padding-left: 10rem;
+  padding-top: 2rem;
+}
+
+.dot {
+  height: 13rem;
+  width: 20rem;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: inline-block;
+  padding-left: 2rem;
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 5rem;
+}
+
+.explanation {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.right {
+  background-color: green;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.again,
+.btn {
+  padding: 1.5rem;
+  margin-left: 35rem;
+  background-color: rgb(226, 105, 105);
+  border-radius: 20%;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.btn {
+  margin-top: 2rem;
+  height: -webkit-fill-available;
+}
+
+.confirm {
+  background-color: rgb(226, 105, 105);
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.result {
+  text-align: center;
+}
+
+.blur {
+  filter: blur(10px);
+}
